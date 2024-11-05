@@ -1,0 +1,6 @@
+@ProuctApi.Representation_HostAddress = http://localhost:5135
+
+GET {{ProuctApi.Representation_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

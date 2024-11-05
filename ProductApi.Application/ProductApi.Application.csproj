@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\DemoEcommerceSharedLibrary\Ecommerce.SharedLibrary\Ecommerce.SharedLibrary.csproj" />
+    <ProjectReference Include="..\ProductApi.Core\ProductApi.Core.csproj" />
+  </ItemGroup>
+
+</Project>
